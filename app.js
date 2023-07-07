@@ -26,9 +26,3 @@ app.post("/user", cors(), (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
-
-// 이유를 모르겠네
-// 리얼로;
-// 주석 추가
-// ㅎㅇㅎㅇ
-ㄴ;
