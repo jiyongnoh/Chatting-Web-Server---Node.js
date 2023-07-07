@@ -1,6 +1,5 @@
 const express = require("express");
 const app = express();
-
 const port = 3001;
 const cors = require("cors");
 // cors error 해결
@@ -27,3 +26,5 @@ app.post("/user", cors(), (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
+
+// 이유를 모르겠네
