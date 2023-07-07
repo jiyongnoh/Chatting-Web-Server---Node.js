@@ -8,7 +8,7 @@ const io = socketIo(server, {
   cors: {
     origin: [
       "http://localhost:3000",
-      "https://main--dainty-halva-ebc3f5.netlify.app",
+      "https://dainty-halva-ebc3f5.netlify.app",
     ],
     methods: ["GET", "POST"],
   },
